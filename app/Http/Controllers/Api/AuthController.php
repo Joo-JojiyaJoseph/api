@@ -102,4 +102,8 @@ class AuthController extends Controller
             return ResponseHelper::error(message: 'Unable to logout user!', statusCode: 400);
         }
     }
+
+    public function SentResentLinkEmail(){
+        
+    }
 }
